@@ -1,1 +1,2 @@
 Day 0 - Installed development tools, found Command line tutorial I need to go through. Installed Sublime Text
+Day 1 - watched cs50 by Harvard , researched coding templates, decided on meteor, did html tutorial , went through html tutorial , went through command line tutorial, started meteor tutorial, watched a meteor tutorial on YT
