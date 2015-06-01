@@ -1,0 +1,1 @@
+Day 0 - Installed development tools, found Command line tutorial I need to go through. Installed Sublime Text
