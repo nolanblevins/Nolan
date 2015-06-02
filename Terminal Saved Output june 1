@@ -1,0 +1,236 @@
+Last login: Tue Jun  2 08:36:46 on ttys000
+BleviMac:~ npblevins$ cd temp
+BleviMac:temp npblevins$ mkdir -p i/like/icecream
+BleviMac:temp npblevins$ pushd i/like/icecream
+~/temp/i/like/icecream ~/temp
+BleviMac:icecream npblevins$ popd
+~/temp
+BleviMac:temp npblevins$ pushd i/like
+~/temp/i/like ~/temp
+BleviMac:like npblevins$ pwd
+/Users/npblevins/temp/i/like
+BleviMac:like npblevins$ pushd icecream
+~/temp/i/like/icecream ~/temp/i/like ~/temp
+BleviMac:icecream npblevins$ popd
+~/temp/i/like ~/temp
+BleviMac:like npblevins$ pwd
+/Users/npblevins/temp/i/like
+BleviMac:like npblevins$ pushd
+~/temp ~/temp/i/like
+BleviMac:temp npblevins$ cd temp
+-bash: cd: temp: No such file or directory
+BleviMac:temp npblevins$ touch iamcool.txt
+BleviMac:temp npblevins$ less ex13.txt
+ex13.txt: No such file or directory
+BleviMac:temp npblevins$ cat nolan
+cat: nolan: No such file or directory
+BleviMac:temp npblevins$ cd temp
+-bash: cd: temp: No such file or directory
+BleviMac:temp npblevins$ ls
+i		iamcool.txt	stuff
+BleviMac:temp npblevins$ cd temp
+-bash: cd: temp: No such file or directory
+BleviMac:temp npblevins$ cd temp
+-bash: cd: temp: No such file or directory
+BleviMac:temp npblevins$ 
+BleviMac:temp npblevins$ 
+BleviMac:temp npblevins$ 
+BleviMac:temp npblevins$ 
+BleviMac:temp npblevins$ ls *t
+iamcool.txt
+BleviMac:temp npblevins$ ls
+i		iamcool.txt	stuff
+BleviMac:temp npblevins$ cd ..
+BleviMac:~ npblevins$ cd .
+BleviMac:~ npblevins$ dir -r
+-bash: dir: command not found
+BleviMac:~ npblevins$ cd ..
+BleviMac:Users npblevins$ aprpos search
+-bash: aprpos: command not found
+BleviMac:Users npblevins$ apropos search
+apropos(1)               - search the whatis database for strings
+find(n)                  - search for classes and objects
+grep(1), egrep(1), fgrep(1), zgrep(1), zegrep(1), zfgrep(1) - file pattern searcher
+ldapsearch(1)            - LDAP search tool
+leaks(1)                 - Search a process's memory for unreferenced malloc buffers
+lkbib(1)                 - search bibliographic databases
+lookbib(1)               - search bibliographic databases
+lsearch(ntcl)            - See if a list contains a particular element
+whatis(1)                - search the whatis database for complete words
+zipgrep(1)               - search files in a ZIP archive for lines matching a pattern
+BleviMac:Users npblevins$ apropos find
+auto_execok(ntcl), auto_import(ntcl), auto_load(ntcl), auto_mkindex(ntcl), auto_mkindex_old(ntcl), auto_qualify(ntcl), auto_reset(ntcl), tcl_findLibrary(ntcl), parray(ntcl), tcl_endOfWord(ntcl), tcl_startOfNextWord(ntcl), tcl_startOfPreviousWord(ntcl), tcl_wordBreakAfter(ntcl), tcl_wordBreakBefore(ntcl) - standard library of Tcl procedures
+find(1)                  - walk a file hierarchy
+find(n)                  - search for classes and objects
+find2perl(1)             - translate find command lines to Perl code
+findrule(1)              - command line wrapper to File::Find::Rule
+ippfind(1)               - find internet printing protocol printers
+iwidgets_finddialog(n), iwidgets::finddialog(n) - Create and manipulate a find dialog widget
+kextfind(8)              - find kernel extensions (kexts) based on a variety of criteria and print information
+kextlibs(8)              - find OSBundleLibraries needed by a kext
+locate(1)                - find filenames quickly
+mdfind(1)                - finds files matching a given query
+perlmodlib(1)            - constructing new Perl modules and finding existing ones
+pgrep(1), pkill(1)       - find or signal processes by name
+BleviMac:Users npblevins$ apropos remove
+colrm(1)                 - remove columns from a file
+ipcrm(1)                 - remove the specified message queues, semaphore sets, and shared memory segments
+kdestroy(1)              - remove one credential or destroy the current ticket file
+rm(1), unlink(1)         - remove directory entries
+rmdir(1)                 - remove directories
+srm(1)                   - securely remove files or directories
+BleviMac:Users npblevins$ apropos directory
+basename(1), dirname(1)  - return filename or directory portion of pathname
+cd(ntcl)                 - Change working directory
+chroot(8)                - change root directory
+cups-config(1)           - get cups api, compiler, directory, and link information
+cups-files.conf(5)       - file and directory configuration file for cups
+dir(5), dirent(5)        - directory file format
+dirhelper(8)             - helper for special directory creation
+ditto(1)                 - copy directory hierarchies, create and extract archives
+dscacheutil(1)           - gather information, statistics and initiate queries to the Directory Service cache
+dscl(1)                  - Directory Service command line utility
+dsconfigad(8)            - retrieves/changes configuration for Active Directory
+dsexport(1)              - export records from OpenDirectory
+ls(1)                    - list directory contents
+mnthome(1)               - mount an AFP (AppleShare) home directory with the correct privileges
+mtree(8)                 - map a directory hierarchy
+odproxyd(8)              - OpenDirectory proxy daemon
+odutil(1)                - allows caller to examine or change state of opendirectoryd(8)
+opendirectoryd(8)        - is a launchd(8) job for client access to local or remote directory systems
+pam_opendirectory(8)     - OpenDirectory PAM module
+pax(1)                   - read and write file archives and copy directory hierarchies
+pwd(1)                   - return working directory name
+pwd(ntcl)                - Return the absolute path of the current working directory
+rm(1), unlink(1)         - remove directory entries
+setquota(1)              - Sets home directory quotas on the local computer
+slapd-meta(5)            - metadirectory backend to slapd
+slapo-dds(5)             - Dynamic Directory Services overlay to slapd
+tk_chooseDirectory(ntcl) - pops up a dialog box for the user to select a directory
+traverse(n), fileutil_traverse(n) - Iterative directory traversal
+whois(1)                 - Internet domain name and network number directory service
+xcode-select(1)          - Manages the active developer directory for Xcode and BSD tools. rst2man-indent-level 0 1 rstReportMargin \$1 \n[an-margin] level \n[rst2man-indent-level] level margin: \n[rst2man-indent\n[rst2man-indent-level]] - \n[rst2man-indent0] \n[rst2man-indent1] \n[rst2man-indent2] . 1 INDENT RS \$1 nr rst2man-indent\n[rst2man-indent-level] \n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \n[rst2man-indent\n[rst2man-indent-level]]u
+BleviMac:Users npblevins$ help *al*
+Shell commands matching keyword `*al*'
+
+alias: alias [-p] [name[=value] ... ]
+    `alias' with no arguments or with the -p option prints the list
+    of aliases in the form alias NAME=VALUE on standard output.
+    Otherwise, an alias is defined for each NAME whose VALUE is given.
+    A trailing space in VALUE causes the next word to be checked for
+    alias substitution when the alias is expanded.  Alias returns
+    true unless a NAME is given for which no alias has been defined.
+caller: caller [EXPR]
+    Returns the context of the current subroutine call.
+    
+    Without EXPR, returns "$line $filename".  With EXPR,
+    returns "$line $subroutine $filename"; this extra information
+    can be used to provide a stack trace.
+    
+    The value of EXPR indicates how many call frames to go back before the
+    current one; the top frame is frame 0.
+eval: eval [arg ...]
+    Read ARGs as input to the shell and execute the resulting command(s).
+false: false
+    Return an unsuccessful result.
+local: local name[=value] ...
+    Create a local variable called NAME, and give it VALUE.  LOCAL
+    can only be used within a function; it makes the variable NAME
+    have a visible scope restricted to that function and its children.
+unalias: unalias [-a] name [name ...]
+    Remove NAMEs from the list of defined aliases.  If the -a option is given,
+    then remove all alias definitions.
+BleviMac:Users npblevins$ env
+TERM_PROGRAM=Apple_Terminal
+SHELL=/bin/bash
+TERM=xterm-256color
+TMPDIR=/var/folders/p0/kwr5wqmx52b80c9xhcc6b64c0000gp/T/
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ZDhvtgX4fi/Render
+TERM_PROGRAM_VERSION=343.7
+OLDPWD=/Users/npblevins
+TERM_SESSION_ID=CD9C96FF-C9AD-4C64-8B14-A3E41E9A4A05
+USER=npblevins
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JCGxCgVo8G/Listeners
+__CF_USER_TEXT_ENCODING=0x1F6:0x0:0x0
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PWD=/Users
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/npblevins
+LOGNAME=npblevins
+_=/usr/bin/env
+BleviMac:Users npblevins$ env
+TERM_PROGRAM=Apple_Terminal
+SHELL=/bin/bash
+TERM=xterm-256color
+TMPDIR=/var/folders/p0/kwr5wqmx52b80c9xhcc6b64c0000gp/T/
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ZDhvtgX4fi/Render
+TERM_PROGRAM_VERSION=343.7
+OLDPWD=/Users/npblevins
+TERM_SESSION_ID=CD9C96FF-C9AD-4C64-8B14-A3E41E9A4A05
+USER=npblevins
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JCGxCgVo8G/Listeners
+__CF_USER_TEXT_ENCODING=0x1F6:0x0:0x0
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PWD=/Users
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/npblevins
+LOGNAME=npblevins
+_=/usr/bin/env
+BleviMac:Users npblevins$ echo
+
+BleviMac:Users npblevins$ export
+declare -x Apple_PubSub_Socket_Render="/private/tmp/com.apple.launchd.ZDhvtgX4fi/Render"
+declare -x HOME="/Users/npblevins"
+declare -x LANG="en_US.UTF-8"
+declare -x LOGNAME="npblevins"
+declare -x OLDPWD="/Users/npblevins"
+declare -x PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+declare -x PWD="/Users"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="1"
+declare -x SSH_AUTH_SOCK="/private/tmp/com.apple.launchd.JCGxCgVo8G/Listeners"
+declare -x TERM="xterm-256color"
+declare -x TERM_PROGRAM="Apple_Terminal"
+declare -x TERM_PROGRAM_VERSION="343.7"
+declare -x TERM_SESSION_ID="CD9C96FF-C9AD-4C64-8B14-A3E41E9A4A05"
+declare -x TMPDIR="/var/folders/p0/kwr5wqmx52b80c9xhcc6b64c0000gp/T/"
+declare -x USER="npblevins"
+declare -x XPC_FLAGS="0x0"
+declare -x XPC_SERVICE_NAME="0"
+declare -x __CF_USER_TEXT_ENCODING="0x1F6:0x0:0x0"
+BleviMac:Users npblevins$ pwd
+/Users
+BleviMac:Users npblevins$ echo
+
+BleviMac:Users npblevins$ export
+declare -x Apple_PubSub_Socket_Render="/private/tmp/com.apple.launchd.ZDhvtgX4fi/Render"
+declare -x HOME="/Users/npblevins"
+declare -x LANG="en_US.UTF-8"
+declare -x LOGNAME="npblevins"
+declare -x OLDPWD="/Users/npblevins"
+declare -x PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+declare -x PWD="/Users"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="1"
+declare -x SSH_AUTH_SOCK="/private/tmp/com.apple.launchd.JCGxCgVo8G/Listeners"
+declare -x TERM="xterm-256color"
+declare -x TERM_PROGRAM="Apple_Terminal"
+declare -x TERM_PROGRAM_VERSION="343.7"
+declare -x TERM_SESSION_ID="CD9C96FF-C9AD-4C64-8B14-A3E41E9A4A05"
+declare -x TMPDIR="/var/folders/p0/kwr5wqmx52b80c9xhcc6b64c0000gp/T/"
+declare -x USER="npblevins"
+declare -x XPC_FLAGS="0x0"
+declare -x XPC_SERVICE_NAME="0"
+declare -x __CF_USER_TEXT_ENCODING="0x1F6:0x0:0x0"
+BleviMac:Users npblevins$ echo
+
+BleviMac:Users npblevins$ unset
+BleviMac:Users npblevins$ echo
+
+BleviMac:Users npblevins$ 

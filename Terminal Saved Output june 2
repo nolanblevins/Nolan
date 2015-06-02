@@ -1,0 +1,93 @@
+Last login: Tue Jun  2 08:36:46 on ttys000
+BleviMac:~ npblevins$ cd temp
+BleviMac:temp npblevins$ mkdir -p i/like/icecream
+BleviMac:temp npblevins$ pushd i/like/icecream
+~/temp/i/like/icecream ~/temp
+BleviMac:icecream npblevins$ popd
+~/temp
+BleviMac:temp npblevins$ pushd i/like
+~/temp/i/like ~/temp
+BleviMac:like npblevins$ pwd
+/Users/npblevins/temp/i/like
+BleviMac:like npblevins$ pushd icecream
+~/temp/i/like/icecream ~/temp/i/like ~/temp
+BleviMac:icecream npblevins$ popd
+~/temp/i/like ~/temp
+BleviMac:like npblevins$ pwd
+/Users/npblevins/temp/i/like
+BleviMac:like npblevins$ pushd
+~/temp ~/temp/i/like
+BleviMac:temp npblevins$ cd temp
+-bash: cd: temp: No such file or directory
+BleviMac:temp npblevins$ touch iamcool.txt
+BleviMac:temp npblevins$ less ex13.txt
+ex13.txt: No such file or directory
+BleviMac:temp npblevins$ cat nolan
+cat: nolan: No such file or directory
+BleviMac:temp npblevins$ cd temp
+-bash: cd: temp: No such file or directory
+BleviMac:temp npblevins$ ls
+i		iamcool.txt	stuff
+BleviMac:temp npblevins$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
