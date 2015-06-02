@@ -102,14 +102,14 @@ pam_opendirectory(8)     - OpenDirectory PAM module
 pax(1)                   - read and write file archives and copy directory hierarchies
 pwd(1)                   - return working directory name
 pwd(ntcl)                - Return the absolute path of the current working directory
-rm(1), unlink(1)         - remove directory entries
+rm(1), unlink(1)         - remove entries
 setquota(1)              - Sets home directory quotas on the local computer
 slapd-meta(5)            - metadirectory backend to slapd
 slapo-dds(5)             - Dynamic Directory Services overlay to slapd
 tk_chooseDirectory(ntcl) - pops up a dialog box for the user to select a directory
 traverse(n), fileutil_traverse(n) - Iterative directory traversal
 whois(1)                 - Internet domain name and network number directory service
-xcode-select(1)          - Manages the active developer directory for Xcode and BSD tools. rst2man-indent-level 0 1 rstReportMargin \$1 \n[an-margin] level \n[rst2man-indent-level] level margin: \n[rst2man-indent\n[rst2man-indent-level]] - \n[rst2man-indent0] \n[rst2man-indent1] \n[rst2man-indent2] . 1 INDENT RS \$1 nr rst2man-indent\n[rst2man-indent-level] \n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \n[rst2man-indent\n[rst2man-indent-level]]u
+xcode-select(1)          - Manages the active developer directory for Xcode and BSD tools. rst2man-indent-level 0 1 rstReportMargin \$1 \n[an-margin] level \n[rst2man-indent-level] level margin: \n[rst2man-indent\n[rst2man-indent-level]] - \n[rst2man-indent0] \n[rst2man-indent1] \n[rst2man-indent2] . 1 INDENT RS \$1 nr rst2man-indent\n[rst2man-indent-level] \n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \n[rst2man-indent\n[rst2man-indnt-level]]u
 BleviMac:Users npblevins$ help *al*
 Shell commands matching keyword `*al*'
 
