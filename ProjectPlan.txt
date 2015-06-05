@@ -1,3 +1,5 @@
 Day 0 - Installed development tools, found Command line tutorial I need to go through. Installed Sublime Text
 Day 1 - watched cs50 by Harvard , researched coding templates, decided on meteor, did html tutorial , went through html tutorial , went through command line tutorial, started meteor tutorial, watched a meteor tutorial on YT
-day 2 - playd around with scratch< watched a few html tutorials , went through full command line tutorial, watched a meteor g
+day 2 - playd around with scratch< watched a few html tutorials , went through full command line tutorial, watched a meteor 
+day 3 built basic todo list
+day 4 went through html and js tutorials then played around with js started python the hard way
