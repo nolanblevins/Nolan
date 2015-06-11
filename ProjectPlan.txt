@@ -3,3 +3,4 @@ Day 1 - watched cs50 by Harvard , researched coding templates, decided on meteor
 day 2 - playd around with scratch< watched a few html tutorials , went through full command line tutorial, watched a meteor 
 day 3 built basic todo list
 day 4 went through html and js tutorials then played around with js started python the hard way
+day 9 - kept going through js tutorial on the second one 
