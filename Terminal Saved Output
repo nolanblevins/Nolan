@@ -1,0 +1,160 @@
+Last login: Mon Jun 22 08:59:21 on console
+BleviMac:~ npblevins$ meteor create NolanS-Practice
+NolanS-Practice: created.                     
+
+To run your new app:                          
+  cd NolanS-Practice                          
+  meteor                                      
+BleviMac:~ npblevins$ cd NolanS-Practice
+BleviMac:NolanS-Practice npblevins$ meteor
+[[[[[ ~/NolanS-Practice ]]]]]                 
+
+=> Started proxy.                             
+=> Started MongoDB.                           
+=> Started your app.                          
+
+=> App running at: http://localhost:3000/
+bootswatch superhero
+
+=> Errors prevented startup:
+   
+   While building the application:
+   NolanS-Practice.css: missing '{' near line 31:33
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Meteor server restarted                    
+=> Errors prevented startup:
+   
+   While building the application:
+   NolanS-Practice.html:48: Expected "div" end tag
+   ...!</h1>    {{> hello}}
+   ^
+   
+=> Your application has errors. Waiting for file change.
+^C
+BleviMac:NolanS-Practice npblevins$ meteor add twbs:bootsrap
+ => Errors while parsing arguments:           
+                                              
+While adding package twbs:bootsrap:
+error: no such package
+
+BleviMac:NolanS-Practice npblevins$ meteor add twbs:bootstrap
+                                                                                   
+Changes to your project's package version selections:
+                                              
+twbs:bootstrap  added, version 3.3.5          
+
+                                              
+twbs:bootstrap: The most popular front-end framework for developing responsive, mobile first projects on the web.
+BleviMac:NolanS-Practice npblevins$ meteor    
+[[[[[ ~/NolanS-Practice ]]]]]                 
+
+=> Started proxy.                             
+=> Started MongoDB.                           
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:48: Expected "div" end tag
+   ...!</h1>    {{> hello}}
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:48: Expected "div" end tag
+   ...r!</h1>   {{> hello}}
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:49: Expected "nav" end tag
+   ...   {{> hello}} </div>
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:45: Expected "div" end tag
+   ...       </ul>   </nav>     </div>    <h1>W...
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:10: Unexpected HTML close tag
+   ...   {{> hello}} </div>
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Meteor server restarted                    
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+=> Client modified -- refreshing (x6)
+=> Errors prevented startup:
+   
+   While building the application:
+   NolanS-Practice.html:44: Unexpected HTML close tag
+   ...>   </div>     </div> <div class="tab-pan...
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:44: Unexpected HTML close tag
+   ...>   </div>     </div>   <div class="progr...
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:35: Unexpected HTML close tag
+   ...>   </div>     </div>   <div class="progr...
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:35: Unexpected HTML close tag
+   ...>   </div>     </div>   <div class="progr...
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:35: Unexpected HTML close tag
+   ...   </div> s    </div>   <div class="progr...
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Errors prevented startup:                  
+   
+   While building the application:
+   NolanS-Practice.html:35: Unexpected HTML close tag
+   ...>   </div>     </div>   <div class="progr...
+   ^
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.                    
+=> Meteor server restarted                    
+=> Client modified -- refreshing

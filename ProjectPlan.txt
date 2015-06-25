@@ -4,3 +4,5 @@ day 2 - playd around with scratch< watched a few html tutorials , went through f
 day 3 built basic todo list
 day 4 went through html and js tutorials then played around with js started python the hard way
 day 9 - kept going through js tutorial on the second one 
+day 15 - used bootstarp and made a somewhat customized site , went through all old code from before break
+day 16 - continues from day 15
